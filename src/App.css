@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+body {
+  background: linear-gradient(110deg,#000,#022f4d 74%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row {
+  margin: 0;
+  overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navBar {
+  background: linear-gradient(110deg,#000,#022f4d 74%);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-shadow: 0 0 2px yellowgreen;
+}
+
+.searchInp {
+  background: #0d0d0d; 
+  border: none;
+  margin-left: 15%;
+  height: 30px;
+  width: 30%;
+  box-shadow: 0 0 1px #727171;
+  color: whitesmoke;
+}
+
+.searchBtn {
+  background: #333333; 
+  border: none;
+  font-weight: 100;
+  height: 29px;
+}
+
+.fa-search:hover {
+  color: rgb(179, 179, 179);
+  transition: 0.3s;
+}
+
+.fa-search {
+  color:  #727171;
+  font-weight: lighter;
+}
+
+.logoText {
+  font-family: 'Oswald';
+}
+
+.mainDiv {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around right;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #0d0d0d;
   color: white;
+  width: 12rem;
+  margin: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainInfo {
+  padding: 3rem;
+  /* background: linear-gradient(110deg,#000,#022f4d 74%); */
+  box-shadow: 0 0 3px white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
